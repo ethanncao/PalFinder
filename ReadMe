@@ -1,0 +1,28 @@
+THIS IS OUR PET ADOPTION PROJECT!!! 
+
+This will be a mock website similar to tinder where you "swipe" left or right on animals that people put up for adoption. 
+
+General Features: 
+- Storage for all the animals "adopted" 
+- Ability to pick what type of animals you want to adopt 
+- Save animal later feature 
+
+General overview: 
+- Create a simple html starting page (You can choose your animal preferences here) 
+- Create an array of animals 
+- Create the html and css design of the animal adoption card 
+- Flip card feature 
+- 'Swipe' feature 
+    - Swiping left will remove animal from all the animal list 
+    - Swiping right will add animal to your adopting list 
+
+Pet Info:
+- picture of pet
+- age
+- breed of pet
+- name
+- gender 
+more info:
+- house-trained?
+- Vaccinations/spayed or neutered
+- Adoption fee

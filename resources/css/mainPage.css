@@ -1,0 +1,132 @@
+body 
+{
+    background-color: rgb(132, 177, 219);
+    height: 100%;
+    overflow-y: hidden;
+}	
+
+.top-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-title
+{
+    margin-top: 20px;
+    margin-left: 25%;
+  
+    color: rgb(240, 209, 230);
+    font-size: 120px;
+    font-family: "Bubbler One";
+    font-weight: 1000;
+}
+
+.image-container
+{
+    margin-top: 35px;
+}
+
+.small-paw-prints
+{
+    margin-left: 55%;
+    filter: invert(100%);
+    width: 170px;
+    transform: rotate(20deg);
+}
+
+.photo-slider
+{
+/*  margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    overflow: hidden;
+    padding: 60px 0px;
+    margin: 22px 150px;
+    /*background: white;*/
+    white-space: nowrap;
+    position: relative;
+}
+
+.photo-slider:after,
+.photo-slider:before {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.photo-slider:before {
+    left: 0;
+    background: linear-gradient(to left,rgba(255, 255, 255, 0)  , rgb(132, 177, 219));
+}
+
+.photo-slider:after
+{
+    right: 0;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0)  , rgb(132, 177, 219));
+}
+
+
+.photos-slide
+{
+    display: inline-block;
+    white-space: nowrap;
+    animation: 40s slide infinite linear;
+}
+
+.photos-slide img
+{
+    height: 300px;
+    margin: 0 10px;
+    border: 2px solid white;
+    width: 350px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.start-button
+{
+    text-align: center;
+}
+
+.start-button-details
+{
+    border-radius: 20px;
+    padding: 15px 15px;
+    background-color: rgb(240, 209, 230);
+    cursor: pointer;
+
+    color: rgb(44, 7, 32);
+    font-family: "Bubbler One";
+    font-weight: bold;
+    font-size: 55px;
+    border-color: white;
+    border-style: solid;
+    z-index: 4;
+    position: relative;
+}
+
+.bottom-div
+{
+    z-index: 3;
+    position: relative;
+}
+
+.paw-prints
+{
+    margin-left: 3%;
+    margin-top: -150px;
+    width: 1700px;
+    filter: invert(100%);
+}

@@ -1,0 +1,331 @@
+/* General css */
+body 
+{
+    background-color: rgb(132, 177, 219);
+}	
+
+.flex-container
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+/* Filters */
+.filters-box
+{
+  font-family: "Bubbler One";
+  width: 240px;
+  height: 700px;
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 75px;
+  margin-top: 50px;  
+}
+
+.filter-header {
+  font-size: 45px;
+  color: rgb(97, 97, 97);
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sort-text {
+  font-size: 28px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: rgb(97, 97, 97);
+}
+
+.radios {
+  font-size: 25px;
+  color: rgb(97, 97, 97);
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.price-range {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(97, 97, 97);
+}
+
+.range-selector-container {
+  margin-top: 10px;
+  margin-left: 28px;
+  display: flex;
+}
+
+.slider {
+  width: 170px;
+}
+
+.range-value
+{
+  margin-left: 5px;
+}
+
+.price-range-numbers
+{
+  margin-left: 27px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.price-range-individual-number
+{
+  margin-right: 45px;
+}
+
+.other-text {
+  font-size: 28px;
+  margin-left: 15px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: rgb(97, 97, 97);
+}
+
+.more-filters
+{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.radios-second
+{
+  border: solid;
+  border-radius: 20px;
+  border-width: 1px;
+
+  font-size: 25px;
+  padding-right: 8px;
+  margin-right: 5px;
+}
+
+.radio-second-three
+{
+  margin-top: 10px;
+  margin-right: 2px;
+  display: inline-block;
+}
+
+.radio-second-five
+{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.show-results
+{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.show-results-button
+{
+  font-family: "Bubbler One";
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(132, 177, 219);
+  
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(114, 115, 131);
+
+  padding: 5px 20px;
+}
+
+.radios-second-input, .topRadioCSS, .radio, .radios-second-input-label, .slider, .show-results-button
+{
+  cursor: pointer;
+}
+
+
+
+
+/* Adoption Card (middle section) */
+.adoption-box
+{
+  width: 550px;
+  height: 730px;
+  border: 1px solid black;
+  background-color: white;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 12px;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-pet-name
+{
+  color: rgb(0, 0, 0);
+  font-family: "Bubbler One";
+  font-size: 66px;
+  font-weight: 1000;
+  margin: 8px 0px 0px 16px;
+}
+
+.display-pet-age
+{
+  color: rgb(0, 0, 0);
+  font-family: "Bubbler One";
+  font-size: 33px;
+  font-weight: 1000;
+  margin: 8px 10px 0px 0px;
+}
+
+.display-pet-gender-breed
+{
+  color: rgb(0, 0, 0);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 19px;
+}
+
+.picture-box
+{
+ border: solid;
+ border-radius: 20px;
+ border-color: rgb(86, 116, 143);
+
+
+ margin: 20px auto;
+ width: 485px;
+ height: 350px;
+}
+
+.pet-image
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 17px;
+}
+
+.text-box
+{
+  margin-left: 18px;
+  font-family: "Bubbler One";
+  font-size: 20px;
+}
+
+.description-header
+{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 0px 5px 0px;
+}
+
+.description-text
+{
+  margin-bottom: 10px;
+}
+
+/* Bottom buttons */
+.no-button,
+.yes-button
+{
+  border-radius: 100%;
+  height: 125px;
+  width: 125px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+
+.no-button {
+  margin-left: 50px;
+  background-color: #972422;
+}
+
+
+.no-button-image,
+ .yes-button-image
+{
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.yes-button-image
+{
+  width: 95%;
+}
+
+
+.yes-button {
+  margin-left: 120px;
+  background-color: green;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+/* Right section */
+.right-side
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button-details {
+  margin-right: 20px;
+  width: 250px;
+  height: 100px;
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 40px;
+
+  font-family: "Bubbler One";
+  font-weight: bolder;
+
+}
+
+/* No Pets Left */
+
+.no-pets-picture-box
+{
+  border: solid;
+  border-radius: 20px;
+  border-color: rgb(86, 116, 143);
+ 
+  margin: 20px auto;
+  width: 485px;
+  height: 680px;
+}
+
+.no-pets-text
+{
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 75px;
+    color: rgb(57, 94, 129);
+    margin-top: 25px;
+    font-family: "Bubbler One";
+    font-weight: bolder;
+
+    text-align: center;
+}

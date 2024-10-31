@@ -280,9 +280,6 @@ noAdoptButton.addEventListener('click', () =>
   //if a currentPet exists
     if(currentPet)
     {
-      // Add pet to the local storage
-      addPet(currentPet.chosenPet); 
-
       if (availablePets.length == filteredOut.length) {
         // Remove pet
         availablePets.splice(currentPet.index,1);
